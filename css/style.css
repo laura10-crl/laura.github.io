@@ -152,3 +152,8 @@ nav ul li a {
 nav ul li a:hover {
   color: #cce7ff; /* Cor mais clara ao passar o mouse */
 }
+#resultado{
+  margin-top: 20px; 
+  font-size: 16px; 
+  color: blue;
+}
