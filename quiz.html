@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- Cabeçalho da página com título e botões de navegação -->
+    <h1>Quiz - Perguntas e Respostas</h1>
+    <button onclick="location.href='index.html'">Início</button>
+    <button onclick="location.href='portfolio.html'">Portfólio</button>
+  </header>
+
+  <main>
+    <!-- Exibe a pergunta atual e as respostas -->
+    <h2>Pergunta: <span id="pergunta"></span></h2>
+    <div id="respostas">
+      <!-- Botões para o usuário responder -->
+      <button onclick="responder('opcao1')">Resposta 1</button>
+      <button onclick="responder('opcao2')">Resposta 2</button>
+      <button onclick="responder('opcao3')">Resposta 3</button>
+    </div>
+    <!-- Exibe a pontuação atual -->
+    <p>Pontuação: <span id="pontuacao">0</span></p>
+    <!-- Feedback sobre a resposta -->
+    <p id="feedback"></p>
+  </main>
+
+  <footer>
+    <!-- Rodapé da página com informações de copyright -->
+    <p>&copy; 2025 - Laura Fernanda</p>
+  </footer>
+   <script src="quiz.js"></script>
+</body>
+</html>

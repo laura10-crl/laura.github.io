@@ -1,0 +1,154 @@
+/* Estilo global do corpo do documento */
+body {
+  font-family: Arial, sans-serif; /* Definindo a fonte do corpo */
+  background-color: #96e5f3; /* Cor de fundo clara */
+  margin: 0; /* Removendo margens padrão */
+  padding: 0; /* Removendo padding padrão */
+  text-align: center; /* Centralizando o texto */
+  min-height: 100vh; /* Garante que o conteúdo ocupe ao menos a altura total da tela */
+  box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura e altura */
+  justify-content: center; /* Garante que o conteúdo esteja centralizado */
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  color: white; /* Cor do texto branco */
+  padding: 10px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto no centro */
+}
+
+/* Estilo do menu de navegação */
+nav {
+  text-align: center; /* Alinha os itens de navegação no centro */
+  margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilo dos botões do cabeçalho (não será alterado) */
+button {
+  background-color: #26799c; /* Cor de fundo azul */
+  color: white; /* Cor do texto branco */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove a borda */
+  margin: 5px; /* Espaçamento ao redor dos botões */
+  cursor: pointer; /* Altera o cursor para indicar interatividade */
+  font-size: 18px; /* Tamanho da fonte */
+  justify-content: center; /* Centraliza os botões horizontalmente */
+}
+
+/* Estilo para quando o botão do cabeçalho é passado o mouse por cima */
+button:hover {
+  background-color: #1a847d; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilo do footer */
+footer {
+  background-color: #1E90FF; /* Cor de fundo azul */
+  color: white; /* Cor do texto branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px; /* Espaçamento interno */
+  position: sticky; /* Fixa o footer na parte inferior */
+  bottom: 0; /* Posiciona na parte inferior da tela */
+  width: 100%; /* Faz o footer ocupar toda a largura da tela */
+  box-sizing: border-box; /* Inclui o padding e as bordas no cálculo da largura e altura */
+}
+
+/* Estilo das seções */
+section {
+  text-align: justify; /* Justifica o texto nas seções */
+  padding: 20px; /* Espaçamento interno */
+  margin: 20px; /* Margem ao redor das seções */
+  font-size: 18px; /* Tamanho da fonte */
+  background-color: white; /* Cor de fundo branca */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 1200px; /* Largura máxima da seção */
+  margin-left: auto; /* Centraliza a seção horizontalmente */
+  margin-right: auto; /* Centraliza a seção horizontalmente */
+  overflow: hidden; /* Impede o conteúdo de ultrapassar a borda */
+}
+
+/* Estilo dos inputs */
+input, select, textarea {
+  width: 80%; /* Reduz a largura para 80% da tela */
+  max-width: 400px; /* Limita a largura máxima para 400px */
+  padding: 8px; /* Espaçamento interno */
+  margin: 5px 0 15px 0; /* Espaçamento entre os campos */
+  display: inline-block; /* Alinha os inputs na mesma linha */
+  border: 1px solid #ccc; /* Borda cinza clara */
+  border-radius: 4px; /* Bordas arredondadas */
+  box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura */
+  font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Estilo dos labels */
+label {
+  font-weight: bold; /* Deixa o texto em negrito */
+  display: block; /* Faz o label ocupar toda a linha */
+  margin-bottom: 5px; /* Margem abaixo do label */
+}
+
+/* Estilo do form */
+form {
+  max-width: 600px; /* Largura máxima do formulário */
+  margin: 0 auto; /* Centraliza o formulário */
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo do botão do formulário (apenas botão abaixo dos inputs) */
+form button {
+  background-color: #26799c; /* Cor de fundo azul */
+  color: white; /* Cor do texto branco */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove a borda */
+  margin-top: 20px; /* Adiciona espaçamento acima do botão */
+  cursor: pointer; /* Altera o cursor para indicar interatividade */
+  font-size: 18px; /* Tamanho da fonte */
+  display: block; /* Faz o botão ocupar uma linha inteira */
+  width: 50%; /* Reduz a largura para 50% da largura do formulário */
+  margin-left: auto; /* Centraliza o botão */
+  margin-right: auto; /* Centraliza o botão */
+}
+
+/* Estilo para quando o botão do formulário é passado o mouse por cima */
+form button:hover {
+  background-color: #1a847d; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilo da lista de artigos */
+#articleList {
+  color: blue; /* Cor do texto azul */
+  text-align: left; /* Alinha o texto à esquerda */
+  list-style-type: none; /* Remove marcadores da lista */
+  padding-left: 0; /* Remove indentação */
+}
+
+#articleList li {
+  margin-bottom: 10px; /* Espaçamento entre os itens */
+  cursor: pointer; /* Altera o cursor para indicar interatividade */
+}
+
+#articleList li:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilo da navegação */
+nav ul {
+  list-style-type: none; /* Remove marcadores da lista */
+  padding: 0; /* Remove o padding */
+}
+
+nav ul li {
+  display: inline-block; /* Exibe os itens de navegação em linha */
+  margin-right: 20px; /* Espaçamento à direita entre os itens */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: white; /* Cor do texto branco */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+nav ul li a:hover {
+  color: #cce7ff; /* Cor mais clara ao passar o mouse */
+}
